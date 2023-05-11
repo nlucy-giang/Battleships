@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  /* border-color : red;
+  border-width: 10px;
+  border-style : solid; */
+  height: 850px;
+  justify-content: center;
+}
+
+.battleship__wrapper {
+  background-color: #2F3234;
+}
+.box {
+  width:500px;
+	height:500px;
+	padding:10px;
+  margin-top: 15px;
+  background-color: #6FBADC;
+}
+
+.playerbox {
+  margin-right: 25px;
+}
+
+.botBox {
+  margin-left: 25px;
+}
+
+.title__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-color : blue;
+  border-width: 10px;
+  border-style : solid; */
+  min-width: 1865px;
+}
+
+body {
+  margin: 0px;
+}
+
+
+.image {
+  margin-bottom: 0;
+}
+
+.image__battleship {
+  width: 300px;
+  height: 270px;
+}
+
+.graphic {
+  font-weight: bold;
+  font-family: monospace;
+  color: white;
+  font-size: 40px;
+}
+
+.battleship__wrapper {
+  background-color: #2F3234;
+  border-width: 0;
+}
+
+.box div {
+  border: 1px solid hsla(0,0, 100%, .2);
+}
+.grid-display {
+  display: flex;
+}
+.ship > div {
+  width: 4.6vmin;
+  height: 4.6vmin;
+}
+
+.ship {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1vmin;
+  width: calc(4.6vmin * var(--width, 1));
+  height: calc(4.6vmin * var(--height, 1));
+  border-radius: 2.3vmin;
+}
+
+.start__button {
+  font-family: monospace;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #D53030;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #1B202D;
+}
+
+.prompt {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  left: 892px;
+  bottom: 295px;
+}
+
+.start__button {
+  position: relative;
+  left: 884px;
+  bottom: 277px;
+}
+
+.start__button:hover {
+  background-color: #963244;
+  color: #BAC7D1;
+}
+
+.start__button:active {
+  background-color: #963244;
+  box-shadow: 0 5px #1B202D;
+  color: #BAC7D1;
+  transform: translateY(4px);
+}
+
+.sunken {
+  color: #black;
+}
+
+.hit {
+  color: #red;
+}
+
+.hidden {
+  color: #blue;
+}
+
+
+.planner {
+  width:500px;
+	height:500px;
+	padding:10px;
+  margin: 50px;
+  background-color: #6FBADC;
+}
+
+.planner:active {
+  background-color: #AF8324;
+  box-shadow: 0 5px #444B4D;
+  color: #BAC7D1;
+  transform: translateY(4px);
+}
